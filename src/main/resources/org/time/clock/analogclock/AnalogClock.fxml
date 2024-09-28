@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.time.clock.analogclock.AnalogClockController">
+   <children>
+      <ImageView fx:id="ClockFace" fitHeight="484.0" fitWidth="491.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Clock.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="MinuteHand" fitHeight="484.0" fitWidth="491.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER">
+         <image>
+            <Image url="@../Image/MinuteHand.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="HourHand" fitHeight="346.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER">
+         <image>
+            <Image url="@../Image/HourHand.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SecondHand" fitHeight="412.0" fitWidth="414.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER">
+         <image>
+            <Image url="@../Image/SecondHand.png" />
+         </image>
+      </ImageView>
+   </children>
+</StackPane>
